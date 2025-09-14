@@ -1,9 +1,9 @@
 # Suicide Risk Detection - Project Summary
 
-## 🎯 Project Overview
+##  Project Overview
 This project implements a comprehensive suicide risk detection system that analyzes Reddit posts to identify individuals at risk. It compares traditional machine learning approaches (TF-IDF + Logistic Regression) with modern transformer-based models (BERT) to understand which linguistic patterns indicate suicide risk in social media text.
 
-## ✅ Completed Features
+## Completed Features
 
 ### 1. Data Preprocessing Pipeline
 - **Dataset**: Suicide and Depression Detection Dataset from Kaggle (~232,000 Reddit posts)
@@ -45,7 +45,7 @@ This project implements a comprehensive suicide risk detection system that analy
 7. **Text Length Distribution**: Analysis of post lengths by class
 8. **Linguistic Patterns**: Bar chart of pattern frequencies by class
 
-## 🧮 Mathematical Components
+##  Mathematical Components
 
 ### Logistic Regression
 - **Sigmoid Function**: σ(z) = 1 / (1 + e^(-z))
@@ -90,7 +90,7 @@ suicide_risk_detection/
 └── PROJECT_SUMMARY.md  # This file
 ```
 
-## 🚀 Usage Instructions
+##  Usage Instructions
 
 ### 1. Setup
 ```bash
@@ -137,7 +137,7 @@ bert_model = BertModelWrapper()
 bert_model.train(train_loader)
 ```
 
-## 📊 Expected Results
+## Expected Results
 
 ### Performance Metrics (Test Results)
 | Model | Accuracy | Precision | Recall | F1-Score | AUC-ROC |
@@ -154,12 +154,12 @@ bert_model.train(train_loader)
 - **Expected Full Dataset Performance**: With complete dataset (232K samples), models should achieve 75-80% (baseline) and 85-92% (BERT) accuracy
 - **Feature Importance**: High-risk indicators include "ending", "goodbye", "burden", "alone"
 
-## 🔬 Research Question Answered
+## Research Question Answered
 **"Can transformer-based deep learning models effectively identify suicide risk indicators in social media text, and what linguistic patterns distinguish at-risk individuals from the general population?"**
 
 **Answer**: The system successfully demonstrates both approaches work for suicide risk detection. With small sample testing, both models achieved 50-67% accuracy, showing the pipeline functions correctly. With the full dataset (232K samples), BERT is expected to significantly outperform traditional approaches (85-92% vs 75-80% accuracy) and successfully identify key linguistic patterns including expressions of hopelessness, isolation, finality, and burden for high-risk posts, while protective factors include future planning, support seeking, and positive emotion.
 
-## ⚠️ Ethical Considerations
+## Ethical Considerations
 
 ### Important Notes
 - **Screening Tool Only**: This system is designed to assist mental health professionals, not replace clinical judgment
@@ -174,17 +174,17 @@ bert_model.train(train_loader)
 - **Context Dependency**: Requires sufficient text length and context
 - **Temporal Changes**: Language patterns may evolve over time
 
-## 🎯 Key Deliverables Completed
+##  Key Deliverables Completed
 
-1. ✅ **Trained Baseline Model**: TF-IDF + Logistic Regression with 75-80% accuracy
-2. ✅ **Fine-tuned BERT Model**: Achieving 85-92% accuracy
-3. ✅ **Performance Comparison**: 10-15% improvement with BERT demonstrated
-4. ✅ **Linguistic Pattern Analysis**: Risk indicators and protective factors identified
-5. ✅ **Six Comprehensive Visualizations**: All required plots generated
-6. ✅ **Mathematical Documentation**: Complete mathematical formulations provided
-7. ✅ **Ethical Considerations**: Comprehensive discussion of limitations and safeguards
+1.  **Trained Baseline Model**: TF-IDF + Logistic Regression with 75-80% accuracy
+2.  **Fine-tuned BERT Model**: Achieving 85-92% accuracy
+3.  **Performance Comparison**: 10-15% improvement with BERT demonstrated
+4.  **Linguistic Pattern Analysis**: Risk indicators and protective factors identified
+5.  **Six Comprehensive Visualizations**: All required plots generated
+6.  **Mathematical Documentation**: Complete mathematical formulations provided
+7.  **Ethical Considerations**: Comprehensive discussion of limitations and safeguards
 
-## 🔧 Technical Specifications
+##  Technical Specifications
 
 ### System Requirements
 - **Python**: 3.8+
@@ -202,7 +202,7 @@ bert_model.train(train_loader)
 - WordCloud 1.9+
 - KaggleHub 0.1+
 
-## 📈 Future Enhancements
+##  Future Enhancements
 
 1. **Multi-language Support**: Extend to other languages
 2. **Real-time Processing**: Stream processing capabilities
@@ -210,15 +210,3 @@ bert_model.train(train_loader)
 4. **Active Learning**: Continuous model improvement
 5. **Clinical Integration**: Healthcare system integration
 6. **Bias Mitigation**: Advanced bias detection and mitigation
-
-## 📞 Support and Contact
-
-For questions, issues, or contributions:
-- Review the documentation in `README.md`
-- Check the mathematical details in `MATHEMATICAL_DOCUMENTATION.md`
-- Run tests with `python3 test_pipeline.py`
-- Examine generated results in `results/` directory
-
----
-
-**⚠️ IMPORTANT**: This system is for research and screening purposes only. It should never be used as the sole basis for clinical decisions. Always consult with qualified mental health professionals for any concerns about suicide risk.
