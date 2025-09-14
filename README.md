@@ -37,10 +37,10 @@ python main.py
 *Results from testing with 10-20 sample posts. Expected performance with full dataset (232K samples): Baseline 75-80%, BERT 85-92%
 
 ### Key Findings
-- ✅ **Pipeline Functionality**: Both models train and predict successfully
-- ✅ **Feature Importance**: Identified key words like "anymore", "burden", "better"
-- ✅ **Visualizations**: Generated 6+ comprehensive plots
-- ✅ **Code Quality**: Production-ready with full documentation
+- **Pipeline Functionality**: Both models train and predict successfully
+- **Feature Importance**: Identified key words like "anymore", "burden", "better"
+- **Visualizations**: Generated 6+ comprehensive plots
+- **Code Quality**: Production-ready with full documentation
 
 ## Project Structure
 ```
