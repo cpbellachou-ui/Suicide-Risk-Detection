@@ -1,0 +1,33 @@
+{
+  "data_preprocessing": {
+    "min_words": 10,
+    "balance_dataset": true,
+    "test_size": 0.2,
+    "random_state": 42
+  },
+  "baseline_model": {
+    "max_features": 5000,
+    "ngram_range": [1, 2],
+    "min_df": 5,
+    "random_state": 42
+  },
+  "bert_model": {
+    "model_name": "bert-base-uncased",
+    "max_length": 128,
+    "batch_size": 16,
+    "learning_rate": 2e-5,
+    "num_epochs": 3,
+    "device": "auto"
+  },
+  "evaluation": {
+    "metrics": ["accuracy", "precision", "recall", "f1_score", "auc_roc"],
+    "create_plots": true,
+    "save_results": true
+  },
+  "visualization": {
+    "create_wordclouds": true,
+    "create_attention_heatmaps": true,
+    "create_linguistic_analysis": true,
+    "create_interactive_dashboard": true
+  }
+}
