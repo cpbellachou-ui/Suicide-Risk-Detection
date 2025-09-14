@@ -1,6 +1,6 @@
 # Quick Start Guide - Suicide Risk Detection
 
-## 🚀 Get Started in 5 Minutes
+## Get Started in 5 Minutes
 
 ### 1. Install Dependencies
 ```bash
@@ -29,7 +29,7 @@ python3 test_pipeline.py
 python3 main.py
 ```
 
-## 📊 What You'll Get
+## What You'll Get
 
 ### Generated Files
 - **Models**: Trained baseline and BERT models in `models/`
@@ -54,7 +54,7 @@ python3 main.py
 
 **Improvement**: BERT shows 10-15% better performance across all metrics.
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -98,7 +98,7 @@ suicide_risk_detection/
 └── README.md           # 📖 Full documentation
 ```
 
-## 🎯 Next Steps
+## Next Steps
 
 1. **Review Results**: Check `results/figures/` for visualizations
 2. **Read Report**: Open `results/final_report.txt`
@@ -106,20 +106,17 @@ suicide_risk_detection/
 4. **Customize**: Modify `config.json` for different settings
 5. **Extend**: Add new features or models
 
-## ⚠️ Important Notes
+## Important Notes
 
 - **Ethical Use**: This is a screening tool, not a diagnostic tool
 - **Human Oversight**: Always require human review of predictions
 - **Privacy**: Ensure data protection and confidentiality
 - **Bias**: Be aware of potential biases in the model
 
-## 📞 Need Help?
+## Need Help?
 
 1. Check the full documentation in `README.md`
 2. Review mathematical details in `MATHEMATICAL_DOCUMENTATION.md`
 3. Run tests to verify everything works
 4. Examine the generated visualizations and reports
 
----
-
-**Ready to start? Run `python3 test_pipeline.py` to begin!** 🚀
